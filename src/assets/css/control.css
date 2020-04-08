@@ -1,0 +1,43 @@
+.controlWrap {
+  margin: 0; overflow: hidden;
+  background-color: #fff; box-shadow:4px 4px 7px rgba(0, 0, 0, 0.3); border-radius: 4px;
+}
+.controlWrap li{
+	padding: 10px; text-align: center; cursor: pointer;
+}
+.controlWrap li:hover{
+	background-color: #efefef;
+}
+.controlWrap li img {
+  width: 40px; border: 1px solid #aaa; padding: 5px;
+}
+.controlWrap li span {
+  display: block; margin: 0 -10px; white-space: nowrap;	
+}
+
+.mapCtrl{
+	position: relative;
+	padding: 10px;
+	background-color: #fff; border: 1px solid #ccc; border-radius: 4px; box-shadow:4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+.mapCtrl img{
+	width: 40px; cursor: pointer;
+}
+.mapCtrl ul{
+	position: absolute; right: 0; top: 61px; width: 160px;overflow: hidden; background-color: #fff; border-radius: 4px; box-shadow:4px 4px 7px rgba(0, 0, 0, 0.3); display: none;
+}
+.mapCtrl li{
+	float: left; width: 80px; line-height: 40px; cursor: pointer;
+}
+.mapCtrl li:hover{
+	background-color: #efefef;
+}
+
+.localMap{
+	display: inline-block; vertical-align: middle;
+	width: 40px; height: 40px; background: url(../images/bike.gif) no-repeat; background-size: 100%;
+}
+.local2Map{
+	display: inline-block; vertical-align: middle;
+	width: 40px; height: 40px; background: url(../images/logo.png) no-repeat; background-size: 100%;
+}
