@@ -13,7 +13,7 @@
     "element-ui": "^2.13.0",
     "esri-leaflet": "^2.3.2",
     "esri-loader": "^2.12.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "leaflet": "^1.6.0",
     "leaflet.chinatmsproviders": "^2.0.3",
     "terraformer": "^1.0.9",
